@@ -1,0 +1,12 @@
+Three conclusions from the Pyschools data.
+
+1. Cabrera High School has the highest overall passing rate (91.33%).
+
+2. Scores by School Spending:
+	For Scores by School Spending, I noticed that the homework example table displays values calculated from scores aggregated at the school level. Student size for each school was ignored. This is problematic. As an extreme hypothetical example, say there are two schools and one spending category. One school has an average math score of 10 computed on one student (n = 1). The second school has an average math score of 20 computed on 100 students (n = 100). It would not be appropriate to call the average 15. 
+
+	It is especially important to calculate the values at the student level because each spending category was calculated at the student level ("Per Student Budget"). In my homework, I showed coding that produces output consistent with the homework example table (and presumably the homework answer key). I also showed coding that produces more accurate values by calculating them at the student level.
+
+3. Average math score is highest for the <$584 spending range category.
+
+
